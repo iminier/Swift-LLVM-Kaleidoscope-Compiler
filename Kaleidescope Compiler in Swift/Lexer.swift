@@ -69,7 +69,7 @@ class Lexer {
         */
         
         if char.isAlphanumeric {
-            var str = readIdentifierOrNumber()
+            let str = readIdentifierOrNumber()
             if let dblVal = Double(str) {
                 return .number(dblVal)
             }

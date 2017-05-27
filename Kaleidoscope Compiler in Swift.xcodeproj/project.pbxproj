@@ -12,6 +12,12 @@
 		D9C97E2E1ED9E0D800D8FB80 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E2D1ED9E0D800D8FB80 /* Token.swift */; };
 		D9C97E301ED9E18000D8FB80 /* Ext-Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E2F1ED9E18000D8FB80 /* Ext-Character.swift */; };
 		D9C97E321ED9E2A600D8FB80 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E311ED9E2A600D8FB80 /* Lexer.swift */; };
+		D9C97E341EDA0A3C00D8FB80 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E331EDA0A3C00D8FB80 /* Prototype.swift */; };
+		D9C97E361EDA0A8E00D8FB80 /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E351EDA0A8E00D8FB80 /* Definition.swift */; };
+		D9C97E3A1EDA0AE600D8FB80 /* Expr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E391EDA0AE600D8FB80 /* Expr.swift */; };
+		D9C97E3C1EDA0B9600D8FB80 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E3B1EDA0B9600D8FB80 /* Parser.swift */; };
+		D9C97E3E1EDA0D5D00D8FB80 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E3D1EDA0D5D00D8FB80 /* ParseError.swift */; };
+		D9C97E401EDA1C3800D8FB80 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E3F1EDA1C3800D8FB80 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +39,12 @@
 		D9C97E2D1ED9E0D800D8FB80 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		D9C97E2F1ED9E18000D8FB80 /* Ext-Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext-Character.swift"; sourceTree = "<group>"; };
 		D9C97E311ED9E2A600D8FB80 /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		D9C97E331EDA0A3C00D8FB80 /* Prototype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
+		D9C97E351EDA0A8E00D8FB80 /* Definition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definition.swift; sourceTree = "<group>"; };
+		D9C97E391EDA0AE600D8FB80 /* Expr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expr.swift; path = ../Expr.swift; sourceTree = "<group>"; };
+		D9C97E3B1EDA0B9600D8FB80 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		D9C97E3D1EDA0D5D00D8FB80 /* ParseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseError.swift; sourceTree = "<group>"; };
+		D9C97E3F1EDA1C3800D8FB80 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,12 @@
 			isa = PBXGroup;
 			children = (
 				D9C97E241ED9DEEF00D8FB80 /* main.swift */,
+				D9C97E3B1EDA0B9600D8FB80 /* Parser.swift */,
+				D9C97E3F1EDA1C3800D8FB80 /* File.swift */,
+				D9C97E3D1EDA0D5D00D8FB80 /* ParseError.swift */,
+				D9C97E391EDA0AE600D8FB80 /* Expr.swift */,
+				D9C97E331EDA0A3C00D8FB80 /* Prototype.swift */,
+				D9C97E351EDA0A8E00D8FB80 /* Definition.swift */,
 				D9C97E2B1ED9DFA500D8FB80 /* BinaryOperator.swift */,
 				D9C97E2D1ED9E0D800D8FB80 /* Token.swift */,
 				D9C97E2F1ED9E18000D8FB80 /* Ext-Character.swift */,
@@ -136,8 +154,14 @@
 			files = (
 				D9C97E2E1ED9E0D800D8FB80 /* Token.swift in Sources */,
 				D9C97E301ED9E18000D8FB80 /* Ext-Character.swift in Sources */,
+				D9C97E341EDA0A3C00D8FB80 /* Prototype.swift in Sources */,
 				D9C97E2C1ED9DFA500D8FB80 /* BinaryOperator.swift in Sources */,
+				D9C97E3E1EDA0D5D00D8FB80 /* ParseError.swift in Sources */,
+				D9C97E3A1EDA0AE600D8FB80 /* Expr.swift in Sources */,
+				D9C97E3C1EDA0B9600D8FB80 /* Parser.swift in Sources */,
+				D9C97E361EDA0A8E00D8FB80 /* Definition.swift in Sources */,
 				D9C97E251ED9DEEF00D8FB80 /* main.swift in Sources */,
+				D9C97E401EDA1C3800D8FB80 /* File.swift in Sources */,
 				D9C97E321ED9E2A600D8FB80 /* Lexer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
