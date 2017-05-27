@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D9C97E251ED9DEEF00D8FB80 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E241ED9DEEF00D8FB80 /* main.swift */; };
+		D9C97E2C1ED9DFA500D8FB80 /* BinaryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E2B1ED9DFA500D8FB80 /* BinaryOperator.swift */; };
+		D9C97E2E1ED9E0D800D8FB80 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E2D1ED9E0D800D8FB80 /* Token.swift */; };
+		D9C97E301ED9E18000D8FB80 /* Ext-Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E2F1ED9E18000D8FB80 /* Ext-Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		D9C97E211ED9DEEF00D8FB80 /* Kaleidescope Compiler in Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Kaleidescope Compiler in Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C97E241ED9DEEF00D8FB80 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D9C97E2B1ED9DFA500D8FB80 /* BinaryOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryOperator.swift; sourceTree = "<group>"; };
+		D9C97E2D1ED9E0D800D8FB80 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		D9C97E2F1ED9E18000D8FB80 /* Ext-Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext-Character.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				D9C97E241ED9DEEF00D8FB80 /* main.swift */,
+				D9C97E2B1ED9DFA500D8FB80 /* BinaryOperator.swift */,
+				D9C97E2D1ED9E0D800D8FB80 /* Token.swift */,
+				D9C97E2F1ED9E18000D8FB80 /* Ext-Character.swift */,
 			);
 			path = "Kaleidescope Compiler in Swift";
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C97E2E1ED9E0D800D8FB80 /* Token.swift in Sources */,
+				D9C97E301ED9E18000D8FB80 /* Ext-Character.swift in Sources */,
+				D9C97E2C1ED9DFA500D8FB80 /* BinaryOperator.swift in Sources */,
 				D9C97E251ED9DEEF00D8FB80 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

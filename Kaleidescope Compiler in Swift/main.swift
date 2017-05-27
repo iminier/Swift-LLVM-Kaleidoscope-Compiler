@@ -6,7 +6,5 @@
 //  Copyright © 2017 Ivan Minier. All rights reserved.
 //
 
-import Foundation
-
-print("Hello, World!")
+import Darwin
 
