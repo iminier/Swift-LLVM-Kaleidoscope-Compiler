@@ -11,6 +11,7 @@
 		D9C97E2C1ED9DFA500D8FB80 /* BinaryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E2B1ED9DFA500D8FB80 /* BinaryOperator.swift */; };
 		D9C97E2E1ED9E0D800D8FB80 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E2D1ED9E0D800D8FB80 /* Token.swift */; };
 		D9C97E301ED9E18000D8FB80 /* Ext-Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E2F1ED9E18000D8FB80 /* Ext-Character.swift */; };
+		D9C97E321ED9E2A600D8FB80 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C97E311ED9E2A600D8FB80 /* Lexer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D9C97E211ED9DEEF00D8FB80 /* Kaleidescope Compiler in Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Kaleidescope Compiler in Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C97E211ED9DEEF00D8FB80 /* Kaleidoscope Compiler in Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Kaleidoscope Compiler in Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C97E241ED9DEEF00D8FB80 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D9C97E2B1ED9DFA500D8FB80 /* BinaryOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryOperator.swift; sourceTree = "<group>"; };
 		D9C97E2D1ED9E0D800D8FB80 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		D9C97E2F1ED9E18000D8FB80 /* Ext-Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext-Character.swift"; sourceTree = "<group>"; };
+		D9C97E311ED9E2A600D8FB80 /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +49,7 @@
 		D9C97E181ED9DEEF00D8FB80 = {
 			isa = PBXGroup;
 			children = (
-				D9C97E231ED9DEEF00D8FB80 /* Kaleidescope Compiler in Swift */,
+				D9C97E231ED9DEEF00D8FB80 /* Kaleidoscope Compiler in Swift */,
 				D9C97E221ED9DEEF00D8FB80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,28 +57,30 @@
 		D9C97E221ED9DEEF00D8FB80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9C97E211ED9DEEF00D8FB80 /* Kaleidescope Compiler in Swift */,
+				D9C97E211ED9DEEF00D8FB80 /* Kaleidoscope Compiler in Swift */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9C97E231ED9DEEF00D8FB80 /* Kaleidescope Compiler in Swift */ = {
+		D9C97E231ED9DEEF00D8FB80 /* Kaleidoscope Compiler in Swift */ = {
 			isa = PBXGroup;
 			children = (
 				D9C97E241ED9DEEF00D8FB80 /* main.swift */,
 				D9C97E2B1ED9DFA500D8FB80 /* BinaryOperator.swift */,
 				D9C97E2D1ED9E0D800D8FB80 /* Token.swift */,
 				D9C97E2F1ED9E18000D8FB80 /* Ext-Character.swift */,
+				D9C97E311ED9E2A600D8FB80 /* Lexer.swift */,
 			);
+			name = "Kaleidoscope Compiler in Swift";
 			path = "Kaleidescope Compiler in Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D9C97E201ED9DEEF00D8FB80 /* Kaleidescope Compiler in Swift */ = {
+		D9C97E201ED9DEEF00D8FB80 /* Kaleidoscope Compiler in Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9C97E281ED9DEEF00D8FB80 /* Build configuration list for PBXNativeTarget "Kaleidescope Compiler in Swift" */;
+			buildConfigurationList = D9C97E281ED9DEEF00D8FB80 /* Build configuration list for PBXNativeTarget "Kaleidoscope Compiler in Swift" */;
 			buildPhases = (
 				D9C97E1D1ED9DEEF00D8FB80 /* Sources */,
 				D9C97E1E1ED9DEEF00D8FB80 /* Frameworks */,
@@ -86,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = "Kaleidescope Compiler in Swift";
+			name = "Kaleidoscope Compiler in Swift";
 			productName = "Kaleidescope Compiler in Swift";
-			productReference = D9C97E211ED9DEEF00D8FB80 /* Kaleidescope Compiler in Swift */;
+			productReference = D9C97E211ED9DEEF00D8FB80 /* Kaleidoscope Compiler in Swift */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D9C97E1C1ED9DEEF00D8FB80 /* Build configuration list for PBXProject "Kaleidescope Compiler in Swift" */;
+			buildConfigurationList = D9C97E1C1ED9DEEF00D8FB80 /* Build configuration list for PBXProject "Kaleidoscope Compiler in Swift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -120,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9C97E201ED9DEEF00D8FB80 /* Kaleidescope Compiler in Swift */,
+				D9C97E201ED9DEEF00D8FB80 /* Kaleidoscope Compiler in Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +138,7 @@
 				D9C97E301ED9E18000D8FB80 /* Ext-Character.swift in Sources */,
 				D9C97E2C1ED9DFA500D8FB80 /* BinaryOperator.swift in Sources */,
 				D9C97E251ED9DEEF00D8FB80 /* main.swift in Sources */,
+				D9C97E321ED9E2A600D8FB80 /* Lexer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +256,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9C97E1C1ED9DEEF00D8FB80 /* Build configuration list for PBXProject "Kaleidescope Compiler in Swift" */ = {
+		D9C97E1C1ED9DEEF00D8FB80 /* Build configuration list for PBXProject "Kaleidoscope Compiler in Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9C97E261ED9DEEF00D8FB80 /* Debug */,
@@ -260,7 +265,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9C97E281ED9DEEF00D8FB80 /* Build configuration list for PBXNativeTarget "Kaleidescope Compiler in Swift" */ = {
+		D9C97E281ED9DEEF00D8FB80 /* Build configuration list for PBXNativeTarget "Kaleidoscope Compiler in Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9C97E291ED9DEEF00D8FB80 /* Debug */,
